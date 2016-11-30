@@ -2,14 +2,14 @@
 Performance improvement process
 ===============================
 Arnauld Van Muysewinkel <avm@pendragon.be>
-v0.1, 23-Nov-2016: Draft version
+v0.1, 30-Nov-2016: Draft version
 :backend: slidy
 :data-uri:
 ifdef::env-build[:icons: font]
 :extension: adoc
 //extension may be overriden by compile.sh
 ifeval::["{extension}"!="pdf"]
-:doctitle: Good Programming Practices for Performance - {doctitle}
+:doctitle: Web Performance Tuning - {doctitle}
 :lastpage: lastpage.adoc.include
 endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
@@ -17,7 +17,8 @@ endif::[]
 Content
 -------
 
-* <<_process,Process>>
+* <<_general_recommendations,General recommendations>>
+* <<_improvement_process,Improvement process>>
 
 _(link:0.1-training_plan.{extension}#_preamble_infrastructure[back to plan])_
 
@@ -48,23 +49,6 @@ _(Reminder from JPT course.)_
 *** then code optimization
 ** fix (one at a time!
 ** iterate (-> run test) (-> run test)
-
-
-Performance test
-----------------
-
-_(Reminder from JPT course.)_
-
-Test data::
-* quantity
-* properly randomized
-
-Test harness::
-* properly isolated
-* test in real-life conditions (DB size, # simultaneous users, server sizing...)
-
-Test scenario, load profiles::
-* representative of the issue
 
 
 include::{lastpage}[]

@@ -1,2 +1,2 @@
-# gpp4p-course
-Good Programming Practices for Performance: Course
+# wpt-course
+Web Performance Tuning: Course

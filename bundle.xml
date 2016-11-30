@@ -14,25 +14,13 @@
   </plugin>
   <plugin class="org.pdfsam.plugin.merge.GUI.MergeMainGUI" name="Merge/Extract">
     <filelist>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/0.0-course_description.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/0.1-training_plan.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/1.0-introduction.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/1.1-objectives.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.1-process.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.2-hardware.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.3-jit.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.4-oracle_db.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.1-cpu.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.2-contentions.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.3-memory.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.4-io.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.5-services.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.6-persistence.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.7-presentation.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.8-architecture.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/gpp4p/course/target/pdf/w1-microprofiling.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/wpt/course/target/pdf/0.0-course_description.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/wpt/course/target/pdf/0.1-training_plan.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/wpt/course/target/pdf/1.0-introduction.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/wpt/course/target/pdf/1.1-objectives.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/wpt/course/target/pdf/2.1-process.pdf" pageselection="All"/>
     </filelist>
-    <destination value="/Users/avm/prj/gpp4p/course/target/pdf/gpp4p-bundle.pdf"/>
+    <destination value="/Users/avm/prj/wpt/course/target/pdf/wpt-bundle.pdf"/>
     <overwrite value="true"/>
     <merge_type value="false"/>
     <compressed value="true"/>

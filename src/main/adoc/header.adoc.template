@@ -9,7 +9,7 @@ ifdef::env-build[:icons: font]
 :extension: adoc
 //extension may be overriden by compile.sh
 ifeval::["{extension}"!="pdf"]
-:doctitle: Good Programming Practices for Performance - {doctitle}
+:doctitle: Web Performance Tuning - {doctitle}
 :lastpage: lastpage.adoc.include
 endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
