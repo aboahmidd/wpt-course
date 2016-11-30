@@ -9,5 +9,48 @@ ifeval::["{extension}"!="pdf"]
 endif::[]
 
 
-TODO
+Target audience
+---------------
+
+Architects, Developers
+
+Prerequisites
+-------------
+
+* Minimum 2 years of experience in developing Web applications (good knowledge of client-side technologies: HTML/CSS/JS)
+
+Training objectives
+-------------------
+
+The constant growth of mobile and responsive applications,
+the realization of applications increasingly rich and massively JavaScript,
+users demanding high standard response times,
+are all elements requiring to optimize the performance of web applications and websites.
+
+The objective of this training course is to provide the best practices and tools necessary for this optimization.
+
+Course content
+--------------
+
+* Why should we optimize websites?
+* Rule for optimizing web sites and frequent issues
+* Diagnostic tools - workshop
+* Analysis and profiling tools - workshop
+
+Skills acquired during the training
+-----------------------------------
+
+* Diagnose performance issues in the browser
+* Identify and apply best practices and rules to make web applications efficient
+
+Out-of-scope
+------------
+
+ - Performance analysis and benchmarking tools (see 'T163 - Java Performance Tuning' (JPT) training).
+ - Best practices for Java Programming (see 'T164 - Good Programming Practices for Programming' (GPP4P) training).
+
+Approach
+--------
+
+Theory + hands on
 
