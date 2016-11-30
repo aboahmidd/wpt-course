@@ -1,0 +1,24 @@
+// build_options: 
+Xxxxxxxxxxxxx
+=============
+Arnauld Van Muysewinkel <avm@pendragon.be>
+v0.0, dd-mmm-2016: Draft version
+:backend: slidy
+:data-uri:
+ifdef::env-build[:icons: font]
+:extension: adoc
+//extension may be overriden by compile.sh
+ifeval::["{extension}"!="pdf"]
+:doctitle: Good Programming Practices for Performance - {doctitle}
+:lastpage: lastpage.adoc.include
+endif::[]
+:copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+
+Content
+-------
+
+
+_(link:0.1-training_plan.html#(8)[back to plan])_
+
+
+include::{lastpage}[]

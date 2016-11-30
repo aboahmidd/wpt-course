@@ -1,0 +1,78 @@
+// build_options:
+Training Plan
+=============
+Arnauld Van Muysewinkel <avm@pendragon.be>
+v0.1, 23-Nov-2016: First complete version
+:backend: slidy
+:data-uri:
+ifdef::env-build[:icons: font]
+:extension: adoc
+//extension may be overriden by compile.sh
+ifeval::["{extension}"!="pdf"]
+:doctitle: Good Programming Practices for Performance - {doctitle}
+:lastpage: lastpage.adoc.include
+endif::[]
+:copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+
+
+Introduction
+------------
+
+* link:0.0-course_description.{extension}#_content[Course description]
+* link:1.0-introduction.{extension}#_content[Introduction]
+* link:1.1-objectives.{extension}#_content[Objectives]
+
+
+Preamble: Infrastructure
+------------------------
+
+* link:2.1-process.{extension}#_content[Performance improvement process]
+* link:2.2-hardware.{extension}#_content[Computer architecture]
+* link:2.3-jit.{extension}#_content[Just-In-Time compiler (JIT)]
+
+
+Preamble: Middleware
+--------------------
+
+* link:2.4-oracle_db.{extension}#_content[Oracle Database]
+
+
+Best practices: Infrastructure
+------------------------------
+
+* link:3.1-cpu.{extension}#_content[CPU]
+* link:3.2-contentions.{extension}#_content[Contentions (threads, locks...)]
+* link:3.3-memory.{extension}#_content[Memory, Objects lifecycle]
+* link:3.4-io.{extension}#_content[I/Os (disk...)]
+
+
+Best practices: Middleware
+--------------------------
+
+* link:3.5-services.{extension}#_content[Remote services]
+* link:3.6-persistence.{extension}#_content[Persistence, Database]
+* link:3.7-presentation.{extension}#_content[Presentation layer (JSF)]
+* link:3.8-architecture.{extension}#_content[Architecture] (?)
+
+
+Workshop
+--------
+
+* link:w1-microprofiling.{extension}#_content[Micro-profiling]
+
+
+Other courses
+-------------
+
+"{nbsp}https://github.com/arnauldvm/jpt-course[Java Performance Tuning]{nbsp}"
+
+* Performance benchmarking
+* Performance Diagnostic Model
+* Performance testing process
+
+"{nbsp}https://github.com/arnauldvm/wpt-course[Web Performance Tuning]{nbsp}"
+
+* Web front-end performance
+
+
+include::{lastpage}[]

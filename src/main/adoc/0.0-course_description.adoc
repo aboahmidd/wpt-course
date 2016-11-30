@@ -1,0 +1,59 @@
+Course description
+==================
+Arnauld Van Muysewinkel <avm@pendragon.be>
+v0.1, 23-Nov-2016: Initial version, adapted for public use
+:extension: adoc
+//extension may be overriden by compile.sh
+ifeval::["{extension}"!="pdf"]
+:doctitle: Good Programming Practices for Performance - {doctitle}
+endif::[]
+
+
+Target audience
+---------------
+
+Architects, Developers
+
+Prerequisites
+-------------
+
+* Minimum 2 years of experience in developing Java enterprise applications
+
+Training objectives
+-------------------
+
+Provide good programming practices for efficient and scalable applications. 
+The development of this skill will improve the quality of the code produced.
+
+Course content
+--------------
+
+* Java SE – Optimization & Best Practices
+* Database – Optimization & Best Practices
+** good usage of JPA
+** good usage of SQL
+* JEE – Optimization & Best Practices
+* Micro-benchmarking
+
+Skills acquired during the training
+-----------------------------------
+
+ - Implement on project the good practices addressed during the training
+ - Recognize code-related performance issues on existing projects.
+
+Out-of-scope
+------------
+
+ - Performance analysis and benchmarking tools (see 'T163 - Java Performance Tuning' (JPT) training).
+ - Web front-end performance tuning (see 'T165 - Web Performance Tuning' (WPT) training).
+
+Approach
+--------
+
+Theory + hands on
+
+Certification
+-------------
+
+None
+

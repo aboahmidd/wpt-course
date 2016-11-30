@@ -1,0 +1,32 @@
+// build_options: 
+Objectives
+==========
+Arnauld Van Muysewinkel <avm@pendragon.be>
+v0.1, 23-Nov-2016: Draft version
+:backend: slidy
+:data-uri:
+ifdef::env-build[:icons: font]
+:extension: adoc
+//extension may be overriden by compile.sh
+ifeval::["{extension}"!="pdf"]
+:doctitle: Good Programming Practices for Performance - {doctitle}
+:lastpage: lastpage.adoc.include
+endif::[]
+:copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+
+
+Content
+-------
+
+* objectives of the course
+
+_(link:0.1-training_plan.{extension}#_introduction[back to course plan])_
+
+
+Objectives of the course
+------------------------
+
+TODO
+
+
+include::{lastpage}[]

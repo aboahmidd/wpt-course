@@ -1,0 +1,64 @@
+// build_options: 
+Introduction
+============
+Arnauld Van Muysewinkel <avm@pendragon.be>
+v0.1, 23-Nov-2016: Draft version
+:backend: slidy
+:data-uri:
+ifdef::env-build[:icons: font]
+:extension: adoc
+//extension may be overriden by compile.sh
+ifeval::["{extension}"!="pdf"]
+:doctitle: Good Programming Practices for Performance - {doctitle}
+:lastpage: lastpage.adoc.include
+endif::[]
+:copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+
+Content
+-------
+
+* <<_references,References>>
+* <<_introduction,Introduction>>
+* <<_conclusion,Conclusion>>
+
+_(link:0.1-training_plan.{extension}#_introduction[back to course plan])_
+
+
+References
+----------
+
+This presentation is derived from:
+
+* http://centers.intranext.smals.be/SIC/Wiki/Pages/WIKI_Best_Practices_for_Performance.aspx[SIC Wiki / Best Practices for Performance]
+* Résumé de la Formation Oracle Performance Tuning. Romain Genon. Smals / SIC. 2015
+* JPA Concepts. Yannick Majoros. Smals / SIC. 14-Nov-2014
+
+Other useful source of information:
+
+* Top 10 Causes of Java EE Enterprise Performance Problems (https://dzone.com/articles/top-10-causes-java-ee)
+* http://www.javaperformancetuning.com/tips/rawtips.shtml
+
+Introduction
+------------
+
+These recommendations apply mostly (but not only) to Jave EE development.
+
+*****
+IMPORTANT: Do-not-reinvent-the-wheel
+*****
+
+
+Conclusion
+----------
+
+IMPORTANT: Remember to check regularly SIC Wiki / Best Practices for Performance:
+
+http://centers.intranext.smals.be/SIC/Wiki/Pages/WIKI_Best_Practices_for_Performance.aspx[
+http://centers.intranext.smals.be/SIC/Wiki/Pages/]
+http://centers.intranext.smals.be/SIC/Wiki/Pages/WIKI_Best_Practices_for_Performance.aspx[
+WIKI_Best_Practices_for_Performance.aspx]
+
+image:images/Perry_The_Platypus-210x140.png[width=30] http://c.xkcd.com/random/comic/[.]
+
+
+include::{lastpage}[]

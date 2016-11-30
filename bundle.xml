@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pdfsam_saved_jobs version="2.2.4" savedate="03-Oct-2016" selection="org.pdfsam.plugin.merge.GUI.MergeMainGUI">
+  <plugin class="org.pdfsam.guiclient.gui.panels.JInfoPanel" name="About"/>
+  <plugin class="org.pdfsam.plugin.mix.GUI.MixMainGUI" name="Alternate Mix">
+    <destination value=""/>
+    <step value="1"/>
+    <secondstep value="1"/>
+    <reverse_first value="false"/>
+    <reverse_second value="true"/>
+    <overwrite value="true"/>
+    <compressed value="true"/>
+    <pdfversion value="5"/>
+  </plugin>
+  <plugin class="org.pdfsam.plugin.merge.GUI.MergeMainGUI" name="Merge/Extract">
+    <filelist>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/0.0-course_description.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/0.1-training_plan.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/1.0-introduction.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/1.1-objectives.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.1-process.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.2-hardware.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.3-jit.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/2.4-oracle_db.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.1-cpu.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.2-contentions.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.3-memory.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.4-io.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.5-services.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.6-persistence.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.7-presentation.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/3.8-architecture.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/gpp4p/course/target/pdf/w1-microprofiling.pdf" pageselection="All"/>
+    </filelist>
+    <destination value="/Users/avm/prj/gpp4p/course/target/pdf/gpp4p-bundle.pdf"/>
+    <overwrite value="true"/>
+    <merge_type value="false"/>
+    <compressed value="true"/>
+    <pdfversion value="5"/>
+  </plugin>
+  <plugin class="org.pdfsam.plugin.rotate.GUI.RotateMainGUI" name="Rotate">
+    <filelist/>
+    <rotation value="90"/>
+    <pages value="all"/>
+    <destination value=""/>
+    <overwrite value="true"/>
+    <compressed value="true"/>
+    <pdfversion value="5"/>
+    <prefix value="pdfsam_"/>
+  </plugin>
+  <plugin class="org.pdfsam.guiclient.gui.panels.JSettingsPanel" name="Settings"/>
+  <plugin class="org.pdfsam.plugin.split.GUI.SplitMainGUI" name="Split">
+    <source/>
+    <split_option/>
+    <npages value=""/>
+    <thispage value=""/>
+    <splitsize value=""/>
+    <bookmarkslevel/>
+    <destination value=""/>
+    <prefix value="pdfsam_"/>
+    <overwrite value="true"/>
+    <compressed value="true"/>
+    <pdfversion value="5"/>
+  </plugin>
+  <plugin class="org.pdfsam.plugin.vcomposer.GUI.VComposerMainGUI" name="Visual document composer">
+    <input-documents/>
+    <output-document/>
+    <destination value=""/>
+    <overwrite value="true"/>
+    <compressed value="true"/>
+    <pdfversion value="5"/>
+  </plugin>
+  <plugin class="org.pdfsam.plugin.vpagereorder.GUI.VPageReorderMainGUI" name="Visual reorder">
+    <source/>
+    <destination value=""/>
+    <overwrite value="true"/>
+    <compressed value="true"/>
+    <pdfversion value="5"/>
+  </plugin>
+</pdfsam_saved_jobs>
