@@ -38,15 +38,13 @@ Yet, don't despair!
 Improvement process
 -------------------
 
-_(Reminder from JPT course.)_
-
 * run test
 * measure
 * if performance objective not reached:
 ** analyse results, look for:
-*** first OS contentions,
+*** transport issues,
 *** then GC issues,
-*** then code optimization
+*** then CPU/code optimization
 ** fix (one at a time!
 ** iterate (-> run test) (-> run test)
 
