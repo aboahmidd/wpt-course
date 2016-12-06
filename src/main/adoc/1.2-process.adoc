@@ -51,4 +51,22 @@ _(Reminder from JPT course.)_
 ** iterate (-> run test) (-> run test)
 
 
+Performance test
+----------------
+
+Test data::
+* test with various parameters, especially corner cases
+
+Test harness::
+* properly isolated
+* test in real-life conditions:
+** network (bandwidth and latency)
+** server load (does impact response time)
+** browser brand and version
+** client device type (desktop, mobile phone...) and sizing (CPU, RAM...)
+
+Test scenario::
+* representative of the issue
+
+
 include::{lastpage}[]
