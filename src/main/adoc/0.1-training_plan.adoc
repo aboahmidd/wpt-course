@@ -21,7 +21,7 @@ Introduction
 * link:0.0-course_description.{extension}#_content[Course description]
 * link:1.0-introduction.{extension}#_content[Introduction]
 * link:1.1-objectives.{extension}#_content[Objectives]
-* link:2.1-process.{extension}#_content[Performance improvement process]
+* link:1.2-process.{extension}#_content[Performance improvement process]
 
 
 Other courses
