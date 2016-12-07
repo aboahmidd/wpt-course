@@ -101,13 +101,43 @@ JavaScript Engine
 image::images/main-qimg-ab2a954b51c404efe66cdc7681da6b85.png[width="{imgwidth}"]
 
 
-[[_v8]]
+V8
+--
+
+https://github.com/v8/v8/wiki/Design%20Elements
+http://thibaultlaurens.github.io/javascript/2013/04/29/how-the-v8-engine-works/
+http://stackoverflow.com/a/12987881/318354
+http://websrv0a.sdu.dk/ups/SCM/slides/lecture_03_mads_ager.pdf
+
+
+V8: Interpreter
+---------------
+
+https://github.com/v8/v8/wiki/Interpreter > https://docs.google.com/document/d/11T2CRex9hXxoJwbYqVQ32yIPMh0uouUZLdyrtmMoL44/edit?ts=56f27d9d#heading=h.6jz9dj3bnr8t[Design document]
+
+
+V8: Compiler
+------------
+
+https://github.com/v8/v8/wiki/TurboFan
+http://wingolog.org/archives/2011/07/05/v8-a-tale-of-two-compilers
+
+
 V8: Ignition pipeline
 ---------------------
 
 As of Dec-2016:
 
 image::images/ignitionpipeline.png[width="{imgwidth}"]
+
+
+V9: Garbage Collector
+---------------------
+
+Orinoco (since V8 5.0, Chrome 50)
+
+https://blog.risingstack.com/javascript-garbage-collection-orinoco/ +
+http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
 
 
 Other JavaScript engines
