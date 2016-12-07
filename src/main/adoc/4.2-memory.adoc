@@ -255,6 +255,12 @@ DOM -> +{q}tab{q}+ <table> -> ... -> +{q}td-3-7{q}+ <td> element -> +{q}tab{q}+ 
 Leak cause: Closures
 --------------------
 
+A _closure_ is an anonymous function that capture variables *from parent scopes*.
+
+Because of this property, they can be the cause of memory leaks in very specific cases (see demo).
+
+More info: http://info.meteor.com/blog/an-interesting-kind-of-javascript-memory-leak
+
 
 Detection techniques
 --------------------
