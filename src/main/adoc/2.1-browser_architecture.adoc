@@ -131,7 +131,7 @@ As of Dec-2016:
 image::images/ignitionpipeline.png[width="{imgwidth}"]
 
 
-V9: Garbage Collector
+V8: Garbage Collector
 ---------------------
 
 Orinoco (since V8 5.0, Chrome 50)
