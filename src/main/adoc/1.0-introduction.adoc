@@ -61,7 +61,7 @@ Chrome - Blink(WebKit) - V8
 
 https://developers.google.com/web/fundamentals/performance/
 
-// http: //desalasworks.com/article/javascript-performance-techniques/
+// http://desalasworks.com/article/javascript-performance-techniques/
 
 Disclaimer
 ----------
