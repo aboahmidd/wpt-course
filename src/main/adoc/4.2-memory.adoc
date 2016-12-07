@@ -195,6 +195,61 @@ Solution: disable the interval when removing the button.
 Leak cause: Detached nodes
 --------------------------
 
+* DOM nodes stored in data structure
+* the reference in the data structure is not removed when the DOM node is removed
+
+For example:
+[source,javascript]
+-----
+var elements = {
+    buttonElt: document.getElementById('button'),
+    imageElt: document.getElementById('image')
+};
+
+function doStuff() {
+    elements.imageElt.src = 'http://some.url/image';
+    elements.buttonElt.click();
+}
+-----
+
+References graph: +
+- DOM -> +{q}button{q}+ and +{q}image{q}+ elements +
+- +doStuff+ function -> +elements+ +
+. .  -> +buttonElt+ -> +{q}button{q}+ element +
+. .  -> +imageElt+ -> +{q}image{q}+ element
+
+Even if we remove the button:
+[source,javascript]
+-----
+document.body.removeChild(document.getElementById('button'));
+-----
+it won't be collected, because there is still a reference chain
+through the +buttonElt+ reference stored in +elements+.
+
+
+Leak cause: Detached nodes
+--------------------------
+
+Even worst:
+[source,javascript]
+-----
+var elements = {
+    tableCell: document.getElementById('td-3-7')
+    // where 'td-3-7' is the id of a <td> element inside a big <table>
+};
+document.body.removeChild(document.getElementById('tab'));
+// where 'tab' is the id of this big <table>
+-----
+
+Even though only one small reference is held by +elements+,
+the whole table will stay stuck in memory.
+
+Indeed, before the remove, the reference graph is as follows: +
+DOM -> +{q}tab{q}+ <table> -> ... -> +{q}td-3-7{q}+ <td> element -> +{q}tab{q}+ <table> +
++elements+ -> +tableCell+ -> +{q}td-3-7{q}+ <td> element -> ...
+
+(since each table element holds a reference to the table itself!)
+
 
 [[_closures]]
 Leak cause: Closures
