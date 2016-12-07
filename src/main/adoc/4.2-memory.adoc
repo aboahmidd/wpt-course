@@ -13,6 +13,7 @@ ifeval::["{extension}"!="pdf"]
 :lastpage: lastpage.adoc.include
 endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+:q: '
 
 Content
 -------
@@ -137,6 +138,57 @@ var setCarBrand = car.setBrand.bind(car);
 [[_timers_or_callbacks]]
 Leak cause: Timers or Callbacks
 -------------------------------
+
+*Callbacks and cyclic references*
+
+Let's consider:
+[source,javascript]
+-----
+var element = document.getElementById('button');
+function onClick(event) { element.innerHtml = 'text'; }
+element.addEventListener('click', onClick);
+// Do stuff
+-----
+
+We have a loop of references: +
++element+ -> +{q}click{q}+ event -> +onClick+ function -> +element+
+
+Some (old) browsers do not collect those cyclic references well.
+
+Solution: remove the callback before disposing the +element+:
+[source,javascript]
+-----
+// Now we are about to remove element
+element.removeEventListener('click', onClick);
+element.parentNode.removeChild(element);
+-----
+
+
+Leak cause: Timers or Callbacks
+-------------------------------
+
+*Timers*
+
+Let's consider:
+[source,javascript]
+-----
+var someResource = ...
+setInterval(function() {
+  var element = document.getElementById('button');
+  if (element) {
+    // Do stuff with element and someResource, eg:
+    element.innerHTML = someResource.toHtml();
+}, 1000)
+-----
+
+The references graph is like this: +
+interval -> +setInterval+ handler function -> +element+ and +someResource+
+
+Even if the button (referenced through +element+) is removed,
+the handler (+setInterval+) won't be collected, since the interval is still active.
+Hence, +someResource+ cannot be collected.
+
+Solution: disable the interval when removing the button.
 
 
 [[_detached_nodes]]
