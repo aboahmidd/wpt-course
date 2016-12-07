@@ -162,10 +162,10 @@ Other JavaScript engines
 ------------------------
 
 * *Monkey (Gecko, Netscape/Mozilla/Firefox)
-* Spidermonkey (legacy): first ever JavaScript engine
-* TraceMonkey: first JIT compiler
-* JägerMonkey: improvement of TraceMonkey, superseded by IonMonkey
-* IonMonkey: current engine with Gecko
+** Spidermonkey (legacy): first ever JavaScript engine
+** TraceMonkey: first JIT compiler
+** JägerMonkey: improvement of TraceMonkey, superseded by IonMonkey
+** IonMonkey: current engine with Gecko
 * Chakra (Trident, Internet Explorer)
 * SquirrelFish (WebKit, Safari) (was: JavaScriptCore)
 
