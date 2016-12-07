@@ -17,12 +17,18 @@ endif::[]
 Content
 -------
 
+* <<_detection_techniques,Detection techniques>>
+** <<_timeline_recording,Timeline recording>>
+** <<_heap_snapshot,Heap snapshot>>
+** <<_allocation_timeline,Allocation timeline>>
+** <<_allocation_profiler,Allocation profiler>>
+** <<_three_snapshots,3 snapshots technique>>
 
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
-Techniques
-----------
+Detection techniques
+--------------------
 
 * timeline recording
 * heap snapshot
@@ -30,32 +36,37 @@ Techniques
 * allocation profiler
 
 
+[[_timeline_recording]]
 Technique: Timeline recording
 -----------------------------
 
 -> heap size over time
 
 
+[[_heap_snapshot]]
 Technique: Heap snapshot
 ------------------------
 
 -> capture whole heap
 
 
+[[_allocation_timeline]]
 Technique: Allocation timeline
 ------------------------------
 
 -> allocation over time
 
 
+[[_allocation_profiler]]
 Technique: Allocation profiler
 ------------------------------
 
 -> allocation by JavaScript function
 
 
-3 snapshots technique
----------------------
+[[_three_snapshots]]
+Technique of the 3 snapshots
+----------------------------
 
 
 
