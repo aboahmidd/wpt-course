@@ -17,6 +17,11 @@ endif::[]
 Content
 -------
 
+* <<_memory_leaks,Memory leaks>>
+** <<_global_variables,Global variables>>
+** <<_timers_or_callbacks,Timers or Callbacks>>
+** <<_detached_nodes,Detached nodes>>
+** <<_closures,Closures>>
 * <<_detection_techniques,Detection techniques>>
 ** <<_timeline_recording,Timeline recording>>
 ** <<_heap_snapshot,Heap snapshot>>
@@ -25,6 +30,40 @@ Content
 ** <<_three_snapshots,3 snapshots technique>>
 
 _(link:0.1-training_plan.html#_processing[back to plan])_
+
+
+Memory leaks
+------------
+
+* memory leak = some objects are kept in memory, even though not used anymore
+* due to some hanging reference _somewhere_
+
+Most frequent causes:
+
+* global variables
+* timers or callbacks
+* detached nodes (out of DOM references)
+* closures
+
+
+[[_global_variables]]
+Leak cause: Global variables
+----------------------------
+
+
+[[_timers_or_callbacks]]
+Leak cause: Timers or Callbacks
+-------------------------------
+
+
+[[_detached_nodes]]
+Leak cause: Detached nodes
+--------------------------
+
+
+[[_closures]]
+Leak cause: Closures
+--------------------
 
 
 Detection techniques
