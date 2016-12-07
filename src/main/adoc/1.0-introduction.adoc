@@ -27,6 +27,28 @@ Introduction
 
 TODO
 
+
+Scope
+-----
+
+"Transport" section:
+
+* all kinds of web apps
+
+"CPU" and "Memory" sections:
+
+* Web apps with browser side logic
+** traditional (eg JSF) with "smart" components, AJAX...
+** SPA (Single Page Apps)
+* i.e. applications relying heavily on JavaScript
+
+Out-of-scope:
+* animations, games...
+
+
+Other
+-----
+
 * Rule for optimizing web sites and frequent issues
 * Why should we optimize websites?
 * Diagnose performance issues in the browser
