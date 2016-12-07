@@ -1,23 +1,24 @@
 <button type="button" id="create">Create</button>
 <script>
-var x = [];
-function small() {
-  return new Array(2<<8).join('X');
+var reg = [];
+function mkString(size, fill) {
+  return new Array(2<<size).join(fill);
 }
-function big() {
-  return new Array(2<<20).join('x');
-}
+function small() { return mkString(8, 'X'); }
+function big() { return mkString(20, 'X'); }
+
 function create() {
-var ul = document.createElement('ul');
-for (var i = 0; i < 10; i++) {
-  var li = document.createElement('li');
-  li.data = big();
-  li.more = small();
-  ul.appendChild(li);
-}
-detachedTree = ul;
-x.push(detachedTree);
+  var ul = document.createElement('ul');
+  for (var i = 10; i-->0;) {
+    var li = document.createElement('li');
+    li.data = big();
+    li.more = small();
+    ul.appendChild(li);
+  }
+  detachedTree = ul;
+  reg.push(detachedTree);
 }
 
-document.getElementById('create').addEventListener('click', create);
+document.getElementById('create').
+    addEventListener('click', create);
 </script>
