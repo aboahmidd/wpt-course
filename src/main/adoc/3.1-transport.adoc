@@ -30,6 +30,8 @@ Progressive Web Apps (PWA)
 https://developers.google.com/web/progressive-web-apps/
 https://github.com/GoogleChrome/lighthouse
 
+!! Caching!
+
 Service side
 
 * https://www.nginx.com/blog/10-tips-for-10x-application-performance/
