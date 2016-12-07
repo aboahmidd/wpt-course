@@ -134,6 +134,24 @@ image::images/ignitionpipeline.png[width="{imgwidth}"]
 V8: Garbage Collector
 ---------------------
 
+The problem:
+
+* in general, determining if a piece of memory is used or not is an *undecidable problem*
+* memory management may be *manual* (tedious and error prone) or *automatic*
+
+Garbage Collection:
+
+* a type of automatic memory management
+* based on "Mark-and-Sweep" algorithms
+** start from a list of "roots"
+** browse the reference tree and mark each object as "active"
+** all other objects are inactive and may be reclaimed
+
+This is similar to Java.
+
+V8: Orinoco GC
+--------------
+
 Orinoco (since V8 5.0, Chrome 50)
 
 https://blog.risingstack.com/javascript-garbage-collection-orinoco/ +
