@@ -34,12 +34,17 @@ TODO
 * Diagnostic tools - workshop
 * Identify and apply best practices and rules to make web applications efficient
 
-
 Chrome - Blink(WebKit) - V8
 
 
 https://developers.google.com/web/fundamentals/performance/
 
 // http: //desalasworks.com/article/javascript-performance-techniques/
+
+Disclaimer
+----------
+
+TODO
+
 
 include::{lastpage}[]
