@@ -21,4 +21,18 @@ Content
 _(link:0.1-training_plan.html#_transport[back to plan])_
 
 
+Other topics
+------------
+
+* Guidelines REST (cf site SOA)
+
+Progressive Web Apps (PWA)
+https://developers.google.com/web/progressive-web-apps/
+https://github.com/GoogleChrome/lighthouse
+
+Service side
+
+* https://www.nginx.com/blog/10-tips-for-10x-application-performance/
+
+
 include::{lastpage}[]

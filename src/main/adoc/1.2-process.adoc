@@ -67,4 +67,19 @@ Test scenario::
 * representative of the issue
 
 
+Monkey testing
+--------------
+
+(see http://www.redotheweb.com/2014/01/07/completing-the-js-test-stack-introducing-greminsjs.html)
+-> https://github.com/marmelab/gremlins.js
+
+TODO
+
+
+Other topics
+------------
+
+http://superherojs.com/#performance
+
+
 include::{lastpage}[]

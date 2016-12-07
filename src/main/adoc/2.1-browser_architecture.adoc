@@ -21,4 +21,14 @@ Content
 _(link:0.1-training_plan.html#_introduction[back to plan])_
 
 
+Other topics
+------------
+
+Google Chrome / Blink(WebKit) / V8
+
+http://www.slideshare.net/quangntta/web-browser-architecture-49196378
+http://www.slideshare.net/HyungwookLee/mobilebrowserinternal-20140122
+http://v8project.blogspot.be/
+
+
 include::{lastpage}[]

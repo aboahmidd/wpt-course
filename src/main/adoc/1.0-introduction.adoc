@@ -17,19 +17,9 @@ endif::[]
 Content
 -------
 
-* <<_references,References>>
 * <<_introduction,Introduction>>
 
 _(link:0.1-training_plan.{extension}#_introduction[back to course plan])_
-
-
-References
-----------
-
-* Fixing Memory Leaks in AngularJS and other JavaScript Applications. Blog post on dwmkerr.com.
-http://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/
-
-TODO
 
 
 Introduction
@@ -37,5 +27,19 @@ Introduction
 
 TODO
 
+* Rule for optimizing web sites and frequent issues
+* Why should we optimize websites?
+* Diagnose performance issues in the browser
+
+* Diagnostic tools - workshop
+* Identify and apply best practices and rules to make web applications efficient
+
+
+Chrome - Blink(WebKit) - V8
+
+
+https://developers.google.com/web/fundamentals/performance/
+
+// http: //desalasworks.com/article/javascript-performance-techniques/
 
 include::{lastpage}[]

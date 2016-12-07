@@ -21,4 +21,29 @@ Content
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
+Other topics
+------------
+
+Timeline recording
+https://developers.google.com/web/tools/chrome-devtools/rendering-tools/
+-> https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool#make-a-recording
+
+Performance Tips for JavaScript in V8
+https://www.html5rocks.com/en/tutorials/speed/v8/
+
+https://developers.google.com/speed/articles/optimizing-javascript
+
+// https: //youtu.be/N1swY14jiKc
+
+Online tests:
+
+* PageSpeed Insights https://developers.google.com/speed/pagespeed/insights/
+* Mobile-Friendly Test https://search.google.com/search-console/mobile-friendly
+
+Lower level languages
+---------------------
+
+* ASM.js - http://asmjs.org/
+* WebAssembly - http://webassembly.org/
+
 include::{lastpage}[]
