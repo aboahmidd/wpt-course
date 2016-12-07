@@ -21,6 +21,44 @@ Content
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
+Techniques
+----------
+
+* timeline recording
+* heap snapshot
+* allocation timeline
+* allocation profiler
+
+
+Technique: Timeline recording
+-----------------------------
+
+-> heap size over time
+
+
+Technique: Heap snapshot
+------------------------
+
+-> capture whole heap
+
+
+Technique: Allocation timeline
+------------------------------
+
+-> allocation over time
+
+
+Technique: Allocation profiler
+------------------------------
+
+-> allocation by JavaScript function
+
+
+3 snapshots technique
+---------------------
+
+
+
 Demo
 ----
 
@@ -53,11 +91,6 @@ https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-ge
 
 TODO
 ----
-
-
-3 snapshots technique
----------------------
-
 
 
 include::{lastpage}[]
