@@ -305,14 +305,25 @@ Technique of the 3 snapshots
 
 
 
-Demo
-----
+Demo: Detached nodes
+--------------------
 
 [source,html]
 .detachedDOM.html
 -----
 include::../js/detachedDOM.html[]
 -----
+
+
+Demo: Closure leak
+------------------
+
+[source,html]
+.closureLeak.html
+-----
+include::../js/closureLeak.html[]
+-----
+
 
 References
 ----------
