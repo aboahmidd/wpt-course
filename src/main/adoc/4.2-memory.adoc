@@ -257,7 +257,8 @@ Leak cause: Closures
 
 A _closure_ is an anonymous function that capture variables *from parent scopes*.
 
-Because of this property, they can be the cause of memory leaks in very specific cases (see demo).
+Because of this property, they can be the cause of memory leaks in very specific cases
+(see <<_exercise_closure_leak,exercise>>).
 
 More info: http://info.meteor.com/blog/an-interesting-kind-of-javascript-memory-leak
 
@@ -305,8 +306,8 @@ Technique of the 3 snapshots
 
 
 
-Demo: Detached nodes
---------------------
+Exercise: Detached nodes
+------------------------
 
 [source,html]
 .detachedDOM.html
@@ -315,8 +316,8 @@ include::../js/detachedDOM.html[]
 -----
 
 
-Demo: Closure leak
-------------------
+Exercise: Closure leak
+----------------------
 
 [source,html]
 .closureLeak.html
