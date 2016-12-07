@@ -50,6 +50,89 @@ Most frequent causes:
 Leak cause: Global variables
 ----------------------------
 
+* global variable in a web page = member of the +window+ object
+* won't be collected as long as the page is active
+* typically due to wrong usage of variable scope in functions
+
+
+Leak cause: Global variables
+----------------------------
+
+*Default scope*
+
+[source,javascript]
+-----
+function foo(arg) {
+    bar = "this is a hidden global variable";
+}
+-----
+
+is equivalent to:
+
+[source,javascript]
+-----
+function foo(arg) {
+    window.bar = "this is a hidden global variable";
+}
+-----
+
+
+Leak cause: Global variables
+----------------------------
+
+*Wrong usage of +this+*
+
+[source,javascript]
+-----
+function foo(arg) {
+    this.bar = "this is a hidden global variable";
+}
+-----
+
+is also equivalent to:
+
+[source,javascript]
+-----
+function foo(arg) {
+    window.bar = "this is a hidden global variable";
+}
+-----
+
+
+Leak cause: Global variables
+----------------------------
+
+*Tricky usage of +this+*
+
+Given:
+[source,javascript]
+-----
+var car = {
+  brand: "Nissan",
+  setBrand: function(_brand) { this.brand = _brand; }
+};
+
+var setCarBrand = car.setBrand;
+-----
+
+[source,javascript]
+-----
+setBrand("Toyota");
+-----
+
+is equivalent to:
+
+[source,javascript]
+-----
+window.brand = "Toyota"
+-----
+
+Solution:
+[source,javascript]
+-----
+var setCarBrand = car.setBrand.bind(car);
+-----
+
 
 [[_timers_or_callbacks]]
 Leak cause: Timers or Callbacks
