@@ -29,7 +29,7 @@ Content
 ** <<_v8,V8>>
 ** <<_other_javascript_engines,Others>>
 
-_(link:0.1-training_plan.html#_introduction[back to plan])_
+_(link:0.1-training_plan.html#_preamble[back to plan])_
 
 
 References

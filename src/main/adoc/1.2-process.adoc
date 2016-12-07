@@ -20,7 +20,7 @@ Content
 * <<_general_recommendations,General recommendations>>
 * <<_improvement_process,Improvement process>>
 
-_(link:0.1-training_plan.{extension}#_preamble_infrastructure[back to plan])_
+_(link:0.1-training_plan.{extension}#_preamble[back to plan])_
 
 
 General recommendations
