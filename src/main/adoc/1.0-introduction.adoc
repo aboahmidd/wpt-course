@@ -2,7 +2,7 @@
 Introduction
 ============
 Arnauld Van Muysewinkel <avm@pendragon.be>
-v0.1, 30-Nov-2016: Draft version
+v0.1, 07-Dec-2016: Draft version
 :backend: slidy
 :data-uri:
 ifdef::env-build[:icons: font]

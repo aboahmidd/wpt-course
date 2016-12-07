@@ -2,7 +2,7 @@
 Training Plan
 =============
 Arnauld Van Muysewinkel <avm@pendragon.be>
-v0.1, 30-Nov-2016: First complete version
+v0.1, 07-Dec-2016: First complete version
 :backend: slidy
 :data-uri:
 ifdef::env-build[:icons: font]

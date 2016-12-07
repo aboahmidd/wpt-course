@@ -1,7 +1,7 @@
 Course description
 ==================
 Arnauld Van Muysewinkel <avm@pendragon.be>
-v0.1, 30-Nov-2016: Initial version
+v0.1, 07-Dec-2016: Initial version
 :extension: adoc
 //extension may be overriden by compile.sh
 ifeval::["{extension}"!="pdf"]
