@@ -1,0 +1,16 @@
+<button type="button" id="create">Create</button>
+<script>
+var x = [];
+function create() {
+var ul = document.createElement('ul');
+for (var i = 0; i < 10; i++) {
+var li = document.createElement('li');
+  li.data = new Array(2<<20).join('x');
+ul.appendChild(li);
+}
+detachedTree = ul;
+x.push(detachedTree);
+}
+
+document.getElementById('create').addEventListener('click', create);
+</script>

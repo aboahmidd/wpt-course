@@ -21,6 +21,15 @@ Content
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
+Demo
+----
+
+[source,html]
+.detachedDOM.html
+-----
+include::../js/detachedDOM.html[]
+-----
+
 References
 ----------
 
@@ -37,6 +46,10 @@ http://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/
    http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
 ** Fall cleaning: Optimizing V8 memory consumption. 2016-10-07. +
    http://v8project.blogspot.be/2016/10/fall-cleaning-optimizing-v8-memory.html
+
+https://developers.google.com/web/tools/chrome-devtools/memory-problems/
+
+https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
 
 TODO
 ----
