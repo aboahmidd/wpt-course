@@ -31,9 +31,12 @@ http://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/
 // https: //docs.google.com/presentation/d/1wUVmf78gG-ra5aOxvTfYdiLkdGaR9OhXRnOlIcEmu2s/pub?start=false&loop=false&delayms=3000&slide=id.g1d65bdf6_0_0
 ** > https://docs.google.com/presentation/d/1wUVmf78gG-ra5aOxvTfYdiLkdGaR9OhXRnOlIcEmu2s/pub?start=false&loop=false&delayms=3000&slide=id.g14717ff3_0_23[So you found a leak. Now what?]
 * https://developers.google.com/speed/articles/optimizing-javascript#avoiding-browser-memory-leaks
-* Jank Busters +
-http://v8project.blogspot.be/2015/10/jank-busters-part-one.html +
-http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
+* Official blog of the V8 JavaScript engine. http://v8project.blogspot.be/
+** Jank Busters +
+   http://v8project.blogspot.be/2015/10/jank-busters-part-one.html +
+   http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
+** Fall cleaning: Optimizing V8 memory consumption. 2016-10-07. +
+   http://v8project.blogspot.be/2016/10/fall-cleaning-optimizing-v8-memory.html
 
 TODO
 ----
