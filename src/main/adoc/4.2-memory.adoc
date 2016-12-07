@@ -337,7 +337,7 @@ http://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/
 * https://developers.google.com/speed/articles/optimizing-javascript#avoiding-browser-memory-leaks
 * Official blog of the V8 JavaScript engine. http://v8project.blogspot.be/
 ** Jank Busters +
-   http://v8project.blogspot.be/2015/10/jank-busters-part-one.html +
+// http://v8project.blogspot.be/2015/10/jank-busters-part-one.html + // mostly applicable for animations, not in our scope
    http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
 ** Fall cleaning: Optimizing V8 memory consumption. 2016-10-07. +
    http://v8project.blogspot.be/2016/10/fall-cleaning-optimizing-v8-memory.html
