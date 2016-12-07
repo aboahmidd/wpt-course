@@ -19,16 +19,19 @@ Content
 -------
 
 * <<_memory_leaks,Memory leaks>>
-** <<_global_variables,Global variables>>
-** <<_timers_or_callbacks,Timers or Callbacks>>
-** <<_detached_nodes,Detached nodes>>
-** <<_closures,Closures>>
+//** <<_global_variables,Global variables>>
+//** <<_timers_or_callbacks,Timers or Callbacks>>
+//** <<_detached_nodes,Detached nodes>>
+//** <<_closures,Closures>>
 * <<_detection_techniques,Detection techniques>>
-** <<_timeline_recording,Timeline recording>>
-** <<_heap_snapshot,Heap snapshot>>
-** <<_allocation_timeline,Allocation timeline>>
-** <<_allocation_profiler,Allocation profiler>>
-** <<_three_snapshots,3 snapshots technique>>
+//** <<_timeline_recording,Timeline recording>>
+//** <<_heap_snapshot,Heap snapshot>>
+//** <<_allocation_timeline,Allocation timeline>>
+//** <<_allocation_profiler,Allocation profiler>>
+//** <<_three_snapshots,3 snapshots technique>>
+* <<_exercises_detached_nodes,Exercises>>
+//** <<_exercise_detached_nodes,Detached nodes>>
+//** <<_exercise_closure_leak,Closure leak>>
 
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
