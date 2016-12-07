@@ -8,6 +8,7 @@ v0.0, 07-Dec-2016: Draft version
 ifdef::env-build[:icons: font]
 :extension: adoc
 //extension may be overriden by compile.sh
+:imgwidth: 700
 ifeval::["{extension}"!="pdf"]
 :doctitle: Web Performance Tuning - {doctitle}
 :lastpage: lastpage.adoc.include
@@ -17,18 +18,96 @@ endif::[]
 Content
 -------
 
+* <<_web_browser,Web Browser>>
+** <<_chrome,Chrome>>
+** <<_firefox,Firefox>>
+** <<_internet_explorer,Internet Explorer>>
+* <<_rendering_engine,Rendering Engine>>
+** <<_blink_webkit,Blink (WebKit)>>
+** <<_other_rendering_engines,Others>>
+* <<_javascript_engine,JavaScript Engine>>
+** <<_v8,V8>>
+** <<_other_javascript_engines,Others>>
 
 _(link:0.1-training_plan.html#_introduction[back to plan])_
 
 
-Other topics
-------------
+References
+----------
 
-Google Chrome / Blink(WebKit) / V8
+* A Reference Architecture for Web Browsers. Alan Grosskurth & Michael W. Godfrey. University of Waterloo. http://grosskurth.ca/papers/browser-refarch.pdf
+* How Browsers Work - Part 1 - Architecture. Vineet Gupta. http://archive.li/YOGPn
+* Web-Browser Architecture. Nguyen Quang. Saltlux. 2015-05. http://www.slideshare.net/quangntta/web-browser-architecture-49196378
+* Mobile Browser Internals. (Understanding Blink Rendering Engine). Hyungwook Lee. Naver Labs. 2014-01. http://www.slideshare.net/HyungwookLee/mobilebrowserinternal-20140122
+* Official blog of the V8 JavaScript engine. http://v8project.blogspot.be/
+** V8 Release 5.6. 2016-12-02. http://v8project.blogspot.be/2016/12/v8-release-56.html
+* Implementing a JavaScript Engine. Kris Mok. Azul Systems. 2013-11-10. http://www.slideshare.net/RednaxelaFX/implement-js-krystalmok20131110
+* How Browsers Work: Behind the scenes of modern web browsers. Tali Garsiel & Paul Irish. HTML5 Rocks Tutorials. 2011-08-05. https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
-http://www.slideshare.net/quangntta/web-browser-architecture-49196378
-http://www.slideshare.net/HyungwookLee/mobilebrowserinternal-20140122
-http://v8project.blogspot.be/
+Web Browser
+-----------
+
+image::images/web-browser-architecture-2-1024.jpg[width="{imgwidth}"]
+
+
+Chrome
+------
+
+image::images/web-browser-architecture-13-1024.jpg[width="{imgwidth}"]
+
+
+Firefox
+-------
+
+image::images/web-browser-architecture-12-1024.jpg[width="{imgwidth}"]
+
+
+[[_internet_explore]]
+Internet Explorer (pre-Edge)
+----------------------------
+
+image::images/web-browser-architecture-14-1024.jpg[width="{imgwidth}"]
+
+
+Rendering Engine
+----------------
+
+image::images/Gecko_Overview_9.png[width="{imgwidth}"]
+
+
+Blink (WebKit)
+--------------
+
+image::images/web-browser-architecture-23-1024.jpg[width="{imgwidth}"]
+
+
+Other rendering engines
+-----------------------
+
+
+JavaScript Engine
+-----------------
+
+image::images/implementing-a-javascript-engine-18-1024.jpg[width="{imgwidth}"]
+
+
+JavaScript Engine
+-----------------
+
+image::images/main-qimg-ab2a954b51c404efe66cdc7681da6b85.png[width="{imgwidth}"]
+
+
+[[_v8]]
+V8: Ignition pipeline
+---------------------
+
+As of Dec-2016:
+
+image::images/ignitionpipeline.png[width="{imgwidth}"]
+
+
+Other JavaScript engines
+------------------------
 
 
 include::{lastpage}[]
