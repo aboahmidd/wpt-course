@@ -14,17 +14,17 @@
   </plugin>
   <plugin class="org.pdfsam.plugin.merge.GUI.MergeMainGUI" name="Merge/Extract">
     <filelist>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/0.0-course_description.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/0.1-training_plan.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/1.0-introduction.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/1.1-objectives.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/1.2-process.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/2.1-browser_architecture.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/3.1-transport.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/4.1-cpu.pdf" pageselection="All"/>
-      <file name="/Users/avm/prj/wpt/course/target/pdf/4.2-memory.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/0.0-course_description.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/0.1-training_plan.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/1.0-introduction.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/1.1-objectives.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/1.2-process.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/2.1-browser_architecture.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/3.1-transport.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/4.1-cpu.pdf" pageselection="All"/>
+      <file name="/Users/avm/prj/training/wpt/course/target/pdf/4.2-memory.pdf" pageselection="All"/>
     </filelist>
-    <destination value="/Users/avm/prj/wpt/course/target/pdf/wpt-bundle.pdf"/>
+    <destination value="/Users/avm/prj/training/wpt/course/target/pdf/wpt-bundle.pdf"/>
     <overwrite value="true"/>
     <merge_type value="false"/>
     <compressed value="true"/>
