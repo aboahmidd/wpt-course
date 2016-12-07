@@ -1,12 +1,19 @@
 <button type="button" id="create">Create</button>
 <script>
 var x = [];
+function small() {
+  return new Array(2<<8).join('X');
+}
+function big() {
+  return new Array(2<<20).join('x');
+}
 function create() {
 var ul = document.createElement('ul');
 for (var i = 0; i < 10; i++) {
-var li = document.createElement('li');
-  li.data = new Array(2<<20).join('x');
-ul.appendChild(li);
+  var li = document.createElement('li');
+  li.data = big();
+  li.more = small();
+  ul.appendChild(li);
 }
 detachedTree = ul;
 x.push(detachedTree);
