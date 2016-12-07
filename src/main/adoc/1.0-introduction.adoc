@@ -43,6 +43,7 @@ Scope
 * i.e. applications relying heavily on JavaScript
 
 Out-of-scope:
+
 * animations, games...
 
 
