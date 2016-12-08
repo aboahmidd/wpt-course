@@ -83,7 +83,14 @@ Example: Angular.js
 (Use a Global Network)
 ----------------------
 
-* CDN
+* CDN (Content Delivery Network or Content Distribution Network)
+* globally distributed network of proxy servers deployed in multiple data centers
+
+Goal: Serve content to end-users with:
+
+* high availability
+* high performance
+
 
 Optimize depending on the context
 ---------------------------------
