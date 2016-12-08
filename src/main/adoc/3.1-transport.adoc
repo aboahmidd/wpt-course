@@ -112,6 +112,33 @@ Optimize on the service side
 Investigation tools
 -------------------
 
+* Timeline
+* Boomerang
+* Online tools
+* Lighthouse
+
+
+Timeline
+--------
+
+
+Boomerang
+---------
+
+
+
+Online tools
+------------
+
+
+Lighthouse
+----------
+
+* Chrome extension: +
+  https://github.com/GoogleChrome/lighthouse
+
+-> verify criterias defined by the PWA specification (see further),
+and give a global evaluation (/ 100 points)
 
 [[_pwa]]
 Progressive Web Apps (PWA)
