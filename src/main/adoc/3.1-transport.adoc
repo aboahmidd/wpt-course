@@ -174,7 +174,7 @@ Online tools
 
 Online application executing a number of predefined tests on a given web page.
 
-Gives an overal evalution (/ 100 points).
+Gives an overal evalution (/ 100 points) + detailed report with advices.
 
 Only for applications visible publicly
 
