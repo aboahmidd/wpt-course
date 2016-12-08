@@ -164,6 +164,22 @@ V8: Orinoco GC
 
 Orinoco (since V8 5.0, Chrome 50)
 
+*Generational GC: Young/Old generations*
+
+* promotion after 2 generation (= "Evacuation")
+* spaces partitioned in fixed size blocks ("pages")
+* evacuation in parallel, on a page by page basis
+* old compaction in parallel, on a page by page basis
+
+*Improved pointers tracking*
+
+* speeds up objects relocation
+
+*_Black allocation_*
+
+* speeds up marking of objects in old generation +
+(promoted objects are considered active by default)
+
 https://blog.risingstack.com/javascript-garbage-collection-orinoco/ +
 http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
 
