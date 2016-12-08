@@ -53,6 +53,17 @@ Most frequent causes:
 * closures
 
 
+Memory hindrance
+----------------
+
+Even without leak, the memory may be the origin of performance issues:
+
+* too high allocation rate
+* hiccups in animation due to GC
+* ...
+// TODO: should check if there are other interesting issues
+
+
 [[_global_variables]]
 Leak cause: Global variables
 ----------------------------
