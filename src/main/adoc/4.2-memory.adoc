@@ -8,12 +8,15 @@ v0.0, 07-Dec-2016: Draft version
 ifdef::env-build[:icons: font]
 :extension: adoc
 //extension may be overriden by compile.sh
+:imgwidth: 700
 ifeval::["{extension}"!="pdf"]
 :doctitle: Web Performance Tuning - {doctitle}
 :lastpage: lastpage.adoc.include
 endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
 :q: '
+:boxtimes: &#8864;
+:circleDot: &#8857;
 
 Content
 -------
@@ -279,34 +282,120 @@ Detection techniques
 Technique: Timeline recording
 -----------------------------
 
--> heap size over time
+*-> heap size over time*
+
+=> find out if memory is regularly increasing
+
+in Chrome: +
+>> Developer Tools >> *Timeline >> {boxtimes} Memory* >> (Record button)
+
+
+Technique: Timeline recording
+-----------------------------
+
+image::images/example-timeline.png[width="{imgwidth}"]
 
 
 [[_heap_snapshot]]
 Technique: Heap snapshot
 ------------------------
 
--> capture whole heap
+*-> capture whole heap*
+
+in Chrome: +
+>> Developer Tools >> Profiles >> *{circleDot} Take Heap Snapshot* >> (Record button)
+
+Comparison:
+
+* Take first snapshot immediately after page load
+* Take second snapshot after some activity in the page
+* Select "Comparison" instead of "Summary"
+
+Detached nodes:
+
+* Type "Detached" in the filter box
+
+Technique: Heap snapshot
+------------------------
+
+image::images/example-snapshots-1.png[width="{imgwidth}"]
+
+
+Technique: Heap snapshot
+------------------------
+
+image::images/expanded-detached.png[width="{imgwidth}"]
 
 
 [[_allocation_timeline]]
 Technique: Allocation timeline
 ------------------------------
 
--> allocation over time
+*-> allocation over time*
+
+in Chrome: +
+>> Developer Tools >> Profiles >> *{circleDot} Record Allocation Timeline* >> (Record button)
+
+Then select a time interval, to see which allocations occured during the time span.
+
+
+Technique: Allocation timeline
+------------------------------
+
+image::images/example-recordedallocs-overview.png[width="{imgwidth}"]
 
 
 [[_allocation_profiler]]
 Technique: Allocation profiler
 ------------------------------
 
--> allocation by JavaScript function
+*-> breakdown of allocations by JavaScript function*
+
+in Chrome: +
+>> Developer Tools >> Profiles >> *{circleDot} Record Allocation Profile* >> (Record button)
+
+Then, select "Heavy (Bottom Up)" instead of "Chart"
+
+
+Technique: Allocation profiler
+------------------------------
+
+image::images/allocation-profile.png[width="{imgwidth}"]
 
 
 [[_three_snapshots]]
 Technique of the 3 snapshots
 ----------------------------
 
+*-> detect leak remaining after navigating away from a page*
+
+Take 3 snapshots as follows:
+
+* Make sure the caches are properly loaded, by navigating in the app.
+* Navigate to the page A. Take a snapshot.
+* Navigate to the page B. Take a snapshot.
+* Navigate to the page A. Take a snapshot.
+
+
+Technique of the 3 snapshots
+----------------------------
+
+Analyse the data:
+
+* Select snapshot 3
+* Select "Summary" mode
+* Then, "Objects allocated between Snapshot 1 and Snapshot "
+
+-> In the snapshot 3 (i.e. only objects existing on the _second_ page A),
+we are filtering by objects that were allocated between the _first_ page A and the page B.
+
+In other words, we see only objects from the _first_ page A that survived up to the _second_ page A.
+
+
+Technique of the 3 snapshots
+----------------------------
+
+image::images/SnapshotComparison.png[width="{imgwidth}"]
 
 
 Exercise: Detached nodes
@@ -327,6 +416,12 @@ Exercise: Closure leak
 -----
 include::../js/closureLeak.html[]
 -----
+
+
+Exercise: More...
+-----------------
+
+https://github.com/dwmkerr/angular-memory-leaks
 
 
 References
