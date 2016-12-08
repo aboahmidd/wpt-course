@@ -122,10 +122,54 @@ Causes...
 And many others...
 
 
+Profiling
+---------
+
+* CPU profiling
+* Timeline recording
+
+
+CPU Profiler
+------------
+
+in Chrome: +
+>> Developer Tools >> Profiles >> *{circleDot} Record JavaScript CPU Profile* >> (Record button)
+
+Then, select "Chart" to get a _flame chart_.
+
+Or, select "Heavy (Bottom Up)" to get histogram data.
+
+
+CPU Profiler
+------------
+
+image::images/heavy.png[width="{imgwidth}"]
+
+
+CPU Profiler
+------------
+
+image::images/flamechart.png[width="{imgwidth}"]
+
+
+Timeline recording
+------------------
+
+in Chrome: +
+>> Developer Tools >> *Timeline >> {boxtimes} JS Profile* >> (Record button)
+
+Same data as CPU Profiler, but in an integrated timeline view
+
+
+Timeline recording
+------------------
+
+image::images/JS_Profile.png[width="{imgwidth}"]
+
+
 Other topics
 ------------
 
-Timeline recording
 https://developers.google.com/web/tools/chrome-devtools/rendering-tools/ +
 -> https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution +
 -> https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool#make-a-recording
