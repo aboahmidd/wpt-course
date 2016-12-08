@@ -45,8 +45,8 @@ Improvement process
 *** transport issues,
 *** then GC issues,
 *** then CPU/code optimization
-** fix (one at a time!
-** iterate (-> run test) (-> run test)
+** fix (one at a time!)
+** iterate (-> run test)
 
 
 Performance test
