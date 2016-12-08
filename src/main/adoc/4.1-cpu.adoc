@@ -51,6 +51,10 @@ https://developers.google.com/web/tools/chrome-devtools/rendering-tools/ +
 -> https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution +
 -> https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool#make-a-recording
 
+Performance Issues and Optimizations in JavaScript: An Empirical Study.
+Marija Selakovic and Michael Prade. Technical Report. TU Darmstadt, Department of Computer Science. 2015-Oct.
+http://mp.binaervarianz.de/JS_perf_study_TR_Oct2015.pdf
+
 Performance Tips for JavaScript in V8
 https://www.html5rocks.com/en/tutorials/speed/v8/
 
