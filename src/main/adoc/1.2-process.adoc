@@ -70,10 +70,12 @@ Test scenario::
 Monkey testing
 --------------
 
+* Lot's of random actions (automated)
+
+-> objective is to make sure there is no way the app could crash
+
 (see http://www.redotheweb.com/2014/01/07/completing-the-js-test-stack-introducing-greminsjs.html)
 -> https://github.com/marmelab/gremlins.js
-
-TODO
 
 
 Other topics
