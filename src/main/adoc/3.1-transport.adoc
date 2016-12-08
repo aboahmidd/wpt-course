@@ -174,7 +174,7 @@ Online tools
 
 Online application executing a number of predefined tests on a given web page.
 
-Fives an overal evalution (/ 100 points).
+Gives an overal evalution (/ 100 points).
 
 Only for applications visible publicly
 
@@ -189,6 +189,7 @@ Lighthouse
 
 -> verify criterias defined by the PWA specification (see further),
 and give a global evaluation (/ 100 points)
+
 
 [[_pwa]]
 Progressive Web Apps (PWA)
