@@ -74,6 +74,12 @@ Reduce sizes
 * minification of scripts and stylesheets
 * compression of HTTP payload
 
+Example: Angular.js
+
+* minification: 729 KB -> 101 KB
+* gzip compression: 101 KB -> 37 KB
+
+
 (Use a Global Network)
 ----------------------
 
