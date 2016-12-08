@@ -114,7 +114,15 @@ Reduce first rendering latency
 Optimize on the service side
 ----------------------------
 
-* https://www.nginx.com/blog/10-tips-for-10x-application-performance/
+* Reverse Proxy (offloading of some tasks)
+* Load Balancer
+* Cache static files
+* Compress data
+* Tune your backend (OS, middleware, application) -> see JPT course
+* Monitoring
+
+https://www.nginx.com/blog/10-tips-for-10x-application-performance/
+
 
 Investigation tools
 -------------------
