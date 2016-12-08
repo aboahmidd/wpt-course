@@ -71,8 +71,11 @@ Other
 Exercises
 ---------
 
-Chrome - Blink(WebKit) - V8
+Exercises will be based on:
 
+* the Chrome browser,
+* Blink(WebKit) rendering engine,
+* V8 JavaScript engine.
 
 https://developers.google.com/web/fundamentals/performance/
 
