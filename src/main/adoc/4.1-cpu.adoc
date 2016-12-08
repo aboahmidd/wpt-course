@@ -79,7 +79,7 @@ Avoid calling expensive objects in a loop.
 Example: create a regular expression once, _before_ entering the loop
 
 Avoid:
-[course,javascript]
+[source,javascript]
 -----
 function on(events, ...) {
   events = events.split(/\s+/);
@@ -88,7 +88,7 @@ function on(events, ...) {
 -----
 
 Prefer:
-[course,javascript]
+[source,javascript]
 -----
 var eventSplitter = /\s+/;
 function on(events, ...) {
