@@ -57,6 +57,10 @@ Other
 * Diagnostic tools - workshop
 * Identify and apply best practices and rules to make web applications efficient
 
+
+Exercises
+---------
+
 Chrome - Blink(WebKit) - V8
 
 

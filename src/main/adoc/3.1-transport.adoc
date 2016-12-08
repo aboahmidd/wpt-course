@@ -160,6 +160,13 @@ https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/tim
 Boomerang
 ---------
 
+Performance monitoring from the backend
+
+* piece of javascript added to web pages
+* measures the performance from end users point of view
+* sends this data back to the server
+
+https://yahoo.github.io/boomerang/doc/
 
 
 Online tools
