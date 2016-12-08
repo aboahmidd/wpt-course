@@ -17,6 +17,8 @@ endif::[]
 Content
 -------
 
+* <<_causes,Typical causes of performance issues>>
+* <<_profiling,Profiling>>
 
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
