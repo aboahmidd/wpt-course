@@ -21,6 +21,28 @@ Content
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
+Hidden classes
+--------------
+
+* classes generated internally by V8 to represent each object type
+* all objects created with the same members use the same hidden class
+* => avoid changing the type (i.e. adding members) of an object after construction
+
+[source,javascript]
+-----
+function Point(x, y) {
+  this.x = x;
+  this.y = y;
+}
+
+var p1 = new Point(11, 22);
+var p2 = new Point(33, 44);
+// At this point, p1 and p2 have a shared hidden class
+p2.z = 55;
+// warning! p1 and p2 now have different hidden classes!
+-----
+
+
 Other topics
 ------------
 
