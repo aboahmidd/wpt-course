@@ -116,8 +116,12 @@ V8: Interpreter
 https://github.com/v8/v8/wiki/Interpreter > https://docs.google.com/document/d/11T2CRex9hXxoJwbYqVQ32yIPMh0uouUZLdyrtmMoL44/edit?ts=56f27d9d#heading=h.6jz9dj3bnr8t[Design document]
 
 
-V8: Compiler
-------------
+V8: Compilers
+-------------
+
+* baseline compiler "full-codegen" -> quick-and-dirty
+* 2010: + CrankShaft -> focus on hot-spots
+* 2015: + TurboFan -> imporved performance, asm.js
 
 https://github.com/v8/v8/wiki/TurboFan
 http://wingolog.org/archives/2011/07/05/v8-a-tale-of-two-compilers
