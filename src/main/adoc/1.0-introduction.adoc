@@ -84,7 +84,9 @@ https://developers.google.com/web/fundamentals/performance/
 Disclaimer
 ----------
 
-TODO
+* We're still learning
+* Landscape evoluates etremely rapidly
+* Optimizing a web app is more an art than a science
 
 
 include::{lastpage}[]
