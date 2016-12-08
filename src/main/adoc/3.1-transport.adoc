@@ -188,7 +188,7 @@ Lighthouse
   https://github.com/GoogleChrome/lighthouse
 
 -> verify criterias defined by the PWA specification (see further),
-and give a global evaluation (/ 100 points)
+and give a global evaluation (/ 100 points) + detailed report with advices
 
 
 [[_pwa]]
