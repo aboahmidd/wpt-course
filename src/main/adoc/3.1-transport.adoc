@@ -144,13 +144,29 @@ and give a global evaluation (/ 100 points)
 Progressive Web Apps (PWA)
 --------------------------
 
-https://developers.google.com/web/progressive-web-apps/ +
-https://github.com/GoogleChrome/lighthouse
+*-> Bring user experience of native apps to web apps*
+
+This is made possible by modern web technologies
+
+According to Google, they must have the following characteristics:
+
+progressive - responsive - work offline - app-like - fresh - safe -
+discoverable - re-engageable - installable - linkable
+
+https://developers.google.com/web/progressive-web-apps/
 
 
 HTTP/2
 ------
 
+Reduce latencies through:
+
+* Data compression of HTTP headers
+* HTTP/2 Server Push
+* Pipelining of requests
+* Multiplexing multiple requests over a single TCP connection
+
+-> a number of current practices should disappear
 
 
 Other topics
