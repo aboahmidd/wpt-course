@@ -63,8 +63,8 @@ Use client-side processing
 Use caches
 ----------
 
-* "expires" header
-* ETag
+* +Expires+ header
+* +ETag+ header
 * make scripts and stylesheets external
 
 
