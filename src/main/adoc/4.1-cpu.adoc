@@ -21,8 +21,18 @@ Content
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
-Implementations
----------------
+[[_causes]]
+Typical causes of performance issues
+------------------------------------
+
+* Implementations
+* Hidden classes
+* Repetitions
+* Generic API
+
+
+Cause: Implementations
+----------------------
 
 Choose API methods carefully. There are often several ways of doing something,
 but only one is most efficient.
@@ -39,8 +49,8 @@ prefer:
 -----
 
 
-Hidden classes
---------------
+Cause: Hidden classes
+---------------------
 
 * classes generated internally by V8 to represent each object type
 * all objects created with the same members use the same hidden class
@@ -61,8 +71,8 @@ p2.z = 55;
 -----
 
 
-Repetitions
------------
+Cause: Repetitions
+------------------
 
 Avoid calling expensive objects in a loop.
 
@@ -88,8 +98,8 @@ function on(events, ...) {
 -----
 
 
-Generic API
------------
+Cause: Generic API
+------------------
 
 More generic API's are usually slower.
 
@@ -104,6 +114,12 @@ prefer:
 arr[arr.length + n]
 -----
 (because +slice(n)+ makes a partial copy of the array into another array)
+
+
+Causes...
+---------
+
+And many others...
 
 
 Other topics
