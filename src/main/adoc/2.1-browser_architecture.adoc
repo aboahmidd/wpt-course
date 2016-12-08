@@ -130,6 +130,12 @@ As of Dec-2016:
 
 image::images/Ignition_compiler_pipeline.png[width="{imgwidth}"]
 
+-> avoids memory overhead of the compilation
+
+* JavaScript is first compiled to "concise" bytecode
+* smaller than native code
+* high performance interpreter delivers performance close to current compilers
+
 
 V8: Garbage Collector
 ---------------------
