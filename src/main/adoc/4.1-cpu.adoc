@@ -61,6 +61,33 @@ p2.z = 55;
 -----
 
 
+Repetitions
+-----------
+
+Avoid calling expensive objects in a loop.
+
+Example: create a regular expression once, _before_ entering the loop
+
+Avoid:
+[course,javascript]
+-----
+function on(events, ...) {
+  events = events.split(/\s+/);
+  ...
+}
+-----
+
+Prefer:
+[course,javascript]
+-----
+var eventSplitter = /\s+/;
+function on(events, ...) {
+  events = events.split(eventSplitter);
+  ...
+}
+-----
+
+
 Other topics
 ------------
 
