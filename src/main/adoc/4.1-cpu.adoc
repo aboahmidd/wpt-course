@@ -88,6 +88,24 @@ function on(events, ...) {
 -----
 
 
+Generic API
+-----------
+
+More generic API's are usually slower.
+
+For example, avoid:
+[source,javascript]
+-----
+arr.slice(n)[0]
+-----
+prefer:
+[source,javascript]
+-----
+arr[arr.length + n]
+-----
+(because +slice(n)+ makes a partial copy of the array into another array)
+
+
 Other topics
 ------------
 
