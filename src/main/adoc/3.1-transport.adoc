@@ -136,6 +136,26 @@ Investigation tools
 Timeline
 --------
 
+in Chrome: +
+>> Developer Tools >> *Timeline* >> (Record button)
+
+Recording of:
+
+* *FPS* (Frame Per Second) (60 fps = 16.67 ms / frame)
+* *CPU* resources: shows what type of events consumed the CPU resources
+* *NET*: each bar represents an HTTP resource. The longer the bar, the slower the request-repsosne
+** HTML files are blue.
+** Scripts are yellow.
+** Stylesheets are purple.
+** Media files are green.
+** Miscellaneous resources are grey.
+* Paint events
+* Screenshots
+* Memory consumption (more on this later)
+* JS Profile (more on this later)
+
+https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool
+
 
 Boomerang
 ---------
