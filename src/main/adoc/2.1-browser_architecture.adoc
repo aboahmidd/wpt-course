@@ -128,7 +128,7 @@ V8: Ignition pipeline
 
 As of Dec-2016:
 
-image::images/ignitionpipeline.png[width="{imgwidth}"]
+image::images/Ignition_compiler_pipeline.png[width="{imgwidth}"]
 
 
 V8: Garbage Collector
