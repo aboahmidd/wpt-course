@@ -146,13 +146,13 @@ Or, select "Heavy (Bottom Up)" to get histogram data.
 CPU Profiler
 ------------
 
-image::images/heavy.png[width="{imgwidth}"]
+image::images/flamechart.png[width="{imgwidth}"]
 
 
 CPU Profiler
 ------------
 
-image::images/flamechart.png[width="{imgwidth}"]
+image::images/heavy.png[width="{imgwidth}"]
 
 
 Timeline recording
