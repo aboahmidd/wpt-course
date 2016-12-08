@@ -21,20 +21,96 @@ Content
 _(link:0.1-training_plan.html#_transport[back to plan])_
 
 
-Other topics
+[[_axis]]
+Most frequent improvement axis
+------------------------------
+
+* Reduce HTTP requests count
+* Use client-side processing
+* (Parallelize requests)
+* Use caches
+* Reduce sizes
+* (Use a Global Network)
+* Optimize depending on the context
+* Reduce first rendering latency
+* Optimize on the server side
+
+
+Reduce HTTP requests count
+--------------------------
+
+* combine small images into one
+* combine several scripts as one
+* combine several stylesheet as one
+* avoid duplicate scripts
+
+
+Use client-side processing
+--------------------------
+
+* validations
+* ...
+
+//
+//Parallelize requests
+//--------------------
+//
+
+Use caches
+----------
+
+* "expires" header
+* ETag
+* make scripts and stylesheets external
+
+
+Reduce sizes
 ------------
 
-* Guidelines REST (cf site SOA)
+* minification of scripts and stylesheets
+* compression of HTTP payload
+
+(Use a Global Network)
+----------------------
+
+* CDN
+
+Optimize depending on the context
+---------------------------------
+
+Context:
+
+* device
+* bandwidth
+
+-> adapt size of resources (images) +
+-> adapt complexity of page
+
+
+Reduce first rendering latency
+------------------------------
+
+* stylesheets at the top
+* scripts at the bottom
+
+
+Optimize on the service side
+----------------------------
+
+* https://www.nginx.com/blog/10-tips-for-10x-application-performance/
 
 Progressive Web Apps (PWA)
 https://developers.google.com/web/progressive-web-apps/
 https://github.com/GoogleChrome/lighthouse
 
-!! Caching!
 
-Service side
 
-* https://www.nginx.com/blog/10-tips-for-10x-application-performance/
+
+
+Other topics
+------------
+
+* Guidelines REST (cf site SOA)
 
 
 include::{lastpage}[]
