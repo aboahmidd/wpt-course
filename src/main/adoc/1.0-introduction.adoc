@@ -57,17 +57,6 @@ Out-of-scope:
 * animations, games...
 
 
-Other
------
-
-* Rule for optimizing web sites and frequent issues
-* Why should we optimize websites?
-* Diagnose performance issues in the browser
-
-* Diagnostic tools - workshop
-* Identify and apply best practices and rules to make web applications efficient
-
-
 Exercises
 ---------
 
@@ -77,9 +66,6 @@ Exercises will be based on:
 * Blink(WebKit) rendering engine,
 * V8 JavaScript engine.
 
-https://developers.google.com/web/fundamentals/performance/
-
-// http://desalasworks.com/article/javascript-performance-techniques/
 
 Disclaimer
 ----------
@@ -87,6 +73,9 @@ Disclaimer
 * We're still learning
 * Landscape evoluates etremely rapidly
 * Optimizing a web app is more an art than a science
+
+// https://developers.google.com/web/fundamentals/performance/
+// http://desalasworks.com/article/javascript-performance-techniques/
 
 
 include::{lastpage}[]
