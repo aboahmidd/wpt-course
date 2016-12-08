@@ -121,7 +121,7 @@ V8: Compilers
 
 * baseline compiler "full-codegen" -> quick-and-dirty
 * 2010: + CrankShaft -> focus on hot-spots
-* 2015: + TurboFan -> imporved performance, asm.js
+* 2015: + TurboFan -> improved performance, asm.js
 
 https://github.com/v8/v8/wiki/TurboFan
 http://wingolog.org/archives/2011/07/05/v8-a-tale-of-two-compilers
