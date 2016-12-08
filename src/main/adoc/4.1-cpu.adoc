@@ -21,6 +21,24 @@ Content
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
 
+Implementations
+---------------
+
+Choose API methods carefully. There are often several ways of doing something,
+but only one is most efficient.
+
+For example, avoid:
+[source,javascript]
+-----
+... = str.split("'").join("\'");
+-----
+prefer:
+[source,javascript]
+-----
+... = str.replace(/'/g, "\'");
+-----
+
+
 Hidden classes
 --------------
 
