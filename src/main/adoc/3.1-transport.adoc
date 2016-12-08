@@ -172,6 +172,14 @@ https://yahoo.github.io/boomerang/doc/
 Online tools
 ------------
 
+Online application executing a number of predefined tests on a given web page.
+
+Fives an overal evalution (/ 100 points).
+
+Only for applications visible publicly
+
+https://developers.google.com/speed/pagespeed/insights
+
 
 Lighthouse
 ----------
