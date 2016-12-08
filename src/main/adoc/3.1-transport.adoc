@@ -17,6 +17,10 @@ endif::[]
 Content
 -------
 
+* <<_axis,Most frequest improvement axis>>
+* <<_investigation_tools,Investigation tools>>
+* <<_pwa,Progressive Web Apps>>
+* <<_http_2,HTTP/2>>
 
 _(link:0.1-training_plan.html#_transport[back to plan])_
 
@@ -99,11 +103,20 @@ Optimize on the service side
 
 * https://www.nginx.com/blog/10-tips-for-10x-application-performance/
 
+Investigation tools
+-------------------
+
+
+[[_pwa]]
 Progressive Web Apps (PWA)
-https://developers.google.com/web/progressive-web-apps/
+--------------------------
+
+https://developers.google.com/web/progressive-web-apps/ +
 https://github.com/GoogleChrome/lighthouse
 
 
+HTTP/2
+------
 
 
 
