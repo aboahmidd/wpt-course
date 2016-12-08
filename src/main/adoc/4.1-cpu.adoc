@@ -14,6 +14,8 @@ ifeval::["{extension}"!="pdf"]
 :lastpage: lastpage.adoc.include
 endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+:boxtimes: &#8864;
+:circleDot: &#8857;
 
 Content
 -------
