@@ -395,7 +395,7 @@ Analyse the data:
 
 * Select snapshot 3
 * Select "Summary" mode
-* Then, "Objects allocated between Snapshot 1 and Snapshot" instead of "All objects"
+* Then, "Objects allocated between Snapshot 1 and Snapshot 2" instead of "All objects"
 
 -> In the snapshot 3 (i.e. only objects existing on the _second_ page A),
 we are filtering by objects that were allocated between the _first_ page A and the page B.
