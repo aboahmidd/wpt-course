@@ -139,7 +139,7 @@ Timeline
 --------
 
 in Chrome: +
->> Developer Tools >> *Timeline* >> (Record button)
+>> Developer Tools >> *Performance* >> (Record button)
 
 Recording of:
 
