@@ -196,7 +196,7 @@ http://v8project.blogspot.be/2016/04/jank-busters-part-two-orinoco.html
 Other JavaScript engines
 ------------------------
 
-* *Monkey (Gecko, Netscape/Mozilla/Firefox)
+* Monkey (Gecko, Netscape/Mozilla/Firefox)
 ** Spidermonkey (legacy): first ever JavaScript engine
 ** TraceMonkey: first JIT compiler
 ** JägerMonkey: improvement of TraceMonkey, superseded by IonMonkey
