@@ -95,6 +95,15 @@ JavaScript Engine
 image::images/implementing-a-javascript-engine-18-1024.jpg[width="{imgwidth}"]
 
 
+Components of a JavaScript Engine
+---------------------------------
+
+====
+AST (Abstract Syntax Tree):: tree representation of the code structure
+FFI (Foreign Function Interface):: translates calls between 2 languages
+GC (Garbage Collector):: manages heap memory
+====
+
 JavaScript Engine
 -----------------
 
