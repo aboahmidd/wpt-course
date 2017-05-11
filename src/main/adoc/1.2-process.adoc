@@ -23,6 +23,12 @@ Content
 _(link:0.1-training_plan.{extension}#_preamble[back to plan])_
 
 
+Useful references
+-----------------
+
+* Devoxx France : "Optimiser les performances d'une webapp" (Guillaume EHRET) +
+https://www.youtube.com/watch?v=9PRPPJFaF_o
+
 General recommendations
 -----------------------
 
