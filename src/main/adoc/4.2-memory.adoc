@@ -135,7 +135,7 @@ var setCarBrand = car.setBrand;
 
 [source,javascript]
 -----
-setBrand("Toyota");
+setCarBrand("Toyota");
 -----
 
 is equivalent to:
