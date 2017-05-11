@@ -34,7 +34,7 @@ Most frequent improvement axis
 * (Parallelize requests)
 * Use caches
 * Reduce sizes
-* (Use a Global Network)
+* (Use a Global Network, or CDN (Content Delivery network))
 * Optimize depending on the context
 * Reduce first rendering latency
 * Optimize on the server side
