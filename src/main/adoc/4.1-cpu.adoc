@@ -111,12 +111,12 @@ More generic API's are usually slower.
 For example, avoid:
 [source,javascript]
 -----
-arr.slice(n)[0]
+arr.slice(n)[0] // with n < 0, returns the n-th to last element
 -----
 prefer:
 [source,javascript]
 -----
-arr[arr.length + n]
+arr[arr.length + n] // with n < 0, does the same
 -----
 (because +slice(n)+ makes a partial copy of the array into another array)
 
