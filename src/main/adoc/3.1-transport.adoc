@@ -46,7 +46,7 @@ Reduce HTTP requests count
 * combine small images into one
 * combine several scripts as one
 * combine several stylesheet as one
-* avoid duplicate scripts
+* avoid duplicate (or useless!) scripts
 
 
 Use client-side processing
