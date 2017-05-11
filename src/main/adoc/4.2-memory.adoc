@@ -406,6 +406,12 @@ In other words, we see only objects from the _first_ page A that survived up to 
 Technique of the 3 snapshots
 ----------------------------
 
+image::images/3_snapshots_technique.png[width="{imgwidth}"]
+
+
+Technique of the 3 snapshots
+----------------------------
+
 image::images/SnapshotComparison.png[width="{imgwidth}"]
 
 
