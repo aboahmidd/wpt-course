@@ -104,8 +104,8 @@ FFI (Foreign Function Interface):: translates calls between 2 languages
 GC (Garbage Collector):: manages heap memory
 ====
 
-JavaScript Engine
------------------
+JavaScript Engine: flow of processing
+-------------------------------------
 
 image::images/main-qimg-ab2a954b51c404efe66cdc7681da6b85.png[width="{imgwidth}"]
 
