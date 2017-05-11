@@ -159,6 +159,12 @@ Recording of:
 https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool
 
 
+Timeline
+--------
+
+image::images/chrome_timeline.png[width="{imgwidth}"]
+
+
 Boomerang
 ---------
 
