@@ -406,6 +406,7 @@ In other words, we see only objects from the _first_ page A that survived up to 
 Technique of the 3 snapshots
 ----------------------------
 
+.3 snapshots technique in Chrome 58.0.3029.110 (64-bit)
 image::images/3_snapshots_technique.png[width="{imgwidth}"]
 
 
