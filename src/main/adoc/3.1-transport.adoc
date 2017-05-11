@@ -63,8 +63,10 @@ Use client-side processing
 Use caches
 ----------
 
-* +Expires+ header
-* +ETag+ header
+* +Expires+ header +
+-> date/time after which the response is considered stale
+* +ETag+ header +
+-> identifier for a specific version of a resource
 * make scripts and stylesheets external
 
 
