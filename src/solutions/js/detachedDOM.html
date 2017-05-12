@@ -1,0 +1,24 @@
+<button type="button" id="create">Create</button>
+<script>
+var reg = [];
+function mkString(size, fill) {
+  return new Array(2<<size).join(fill);
+}
+function small() { return mkString(8, 'X'); }
+function big() { return mkString(20, 'X'); }
+
+function create() {
+  var ul = document.createElement('ul');
+  for (var i = 10; i-->0;) {
+    var li = document.createElement('li');
+    li.data = big();
+    li.more = small();
+    ul.appendChild(li);
+  }
+  detachedTree = ul;
+  reg.push(detachedTree);
+}
+
+document.getElementById('create').
+    addEventListener('click', create);
+</script>
