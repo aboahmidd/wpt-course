@@ -161,7 +161,7 @@ Timeline recording
 ------------------
 
 in Chrome: +
->> Developer Tools >> *Timeline >> {boxtimes} JS Profile* >> (Record button)
+>> Developer Tools >> *Performance >> {boxtimes} JS Profile* >> (Record button)
 
 Same data as CPU Profiler, but in an integrated timeline view
 
