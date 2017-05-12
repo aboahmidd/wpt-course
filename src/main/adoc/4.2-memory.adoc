@@ -314,7 +314,7 @@ Technique: Heap snapshot
 *-> capture whole heap*
 
 in Chrome: +
->> Developer Tools >> Profiles >> *{circleDot} Take Heap Snapshot* >> (Record button)
+>> Developer Tools >> Memory >> Profiles >> *{circleDot} Take Heap Snapshot* >> (Record button)
 
 Comparison:
 
@@ -345,7 +345,7 @@ Technique: Allocation timeline
 *-> allocation over time*
 
 in Chrome: +
->> Developer Tools >> Profiles >> *{circleDot} Record Allocation Timeline* >> (Record button)
+>> Developer Tools >> Memory >> Profiles >> *{circleDot} Record Allocation Timeline* >> (Record button)
 
 Then select a time interval, to see which allocations occured during the time span.
 
@@ -363,7 +363,7 @@ Technique: Allocation profiler
 *-> breakdown of allocations by JavaScript function*
 
 in Chrome: +
->> Developer Tools >> Profiles >> *{circleDot} Record Allocation Profile* >> (Record button)
+>> Developer Tools >> Memory >> Profiles >> *{circleDot} Record Allocation Profile* >> (Record button)
 
 Then, select "Heavy (Bottom Up)" instead of "Chart"
 
