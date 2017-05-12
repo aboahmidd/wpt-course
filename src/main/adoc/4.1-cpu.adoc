@@ -16,6 +16,8 @@ endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
 :boxtimes: &#8864;
 :circleDot: &#8857;
+:vertEllipsis: &#8942;
+:circle: &#9899;
 
 Content
 -------
@@ -138,7 +140,9 @@ CPU Profiler
 ------------
 
 in Chrome: +
->> Developer Tools >> Memory >> Profiles >> *{circleDot} Record JavaScript CPU Profile* >> (Record button)
+>> Developer Tools >> *[big]#{vertEllipsis}#* >> More tools >> JavaScript Profiler >> *Start* +
+... +
+>> Stop
 
 Then, select "Chart" to get a _flame chart_.
 
@@ -161,7 +165,9 @@ Timeline recording
 ------------------
 
 in Chrome: +
->> Developer Tools >> *Performance >> {boxtimes} JS Profile* >> (Record button)
+>> Developer Tools >> *Performance* >> {circle} (Record) +
+... +
+>> Stop
 
 Same data as CPU Profiler, but in an integrated timeline view
 
