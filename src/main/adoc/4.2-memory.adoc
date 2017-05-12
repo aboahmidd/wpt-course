@@ -17,6 +17,7 @@ endif::[]
 :q: '
 :boxtimes: &#8864;
 :circleDot: &#8857;
+:circle: &#9899;
 
 Content
 -------
@@ -298,7 +299,7 @@ Technique: Timeline recording
 => find out if memory is regularly increasing
 
 in Chrome: +
->> Developer Tools >> *Performance >> {boxtimes} Memory* >> (Record button)
+>> Developer Tools >> *Performance >> {boxtimes} Memory* >> {circle} (Record)
 
 
 Technique: Timeline recording
@@ -314,7 +315,7 @@ Technique: Heap snapshot
 *-> capture whole heap*
 
 in Chrome: +
->> Developer Tools >> Memory >> Profiles >> *{circleDot} Take Heap Snapshot* >> (Record button)
+>> Developer Tools >> Memory >> Profiles >> *{circleDot} Take Heap Snapshot* >> Take Snapshot
 
 Comparison:
 
@@ -345,7 +346,7 @@ Technique: Allocation timeline
 *-> allocation over time*
 
 in Chrome: +
->> Developer Tools >> Memory >> Profiles >> *{circleDot} Record Allocation Timeline* >> (Record button)
+>> Developer Tools >> Memory >> Profiles >> *{circleDot} Record Allocation Timeline* >> Start
 
 Then select a time interval, to see which allocations occured during the time span.
 
@@ -363,7 +364,7 @@ Technique: Allocation profiler
 *-> breakdown of allocations by JavaScript function*
 
 in Chrome: +
->> Developer Tools >> Memory >> Profiles >> *{circleDot} Record Allocation Profile* >> (Record button)
+>> Developer Tools >> Memory >> Profiles >> *{circleDot} Record Allocation Profile* >> Start
 
 Then, select "Heavy (Bottom Up)" instead of "Chart"
 
