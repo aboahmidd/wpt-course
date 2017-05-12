@@ -298,7 +298,7 @@ Technique: Timeline recording
 => find out if memory is regularly increasing
 
 in Chrome: +
->> Developer Tools >> *Timeline >> {boxtimes} Memory* >> (Record button)
+>> Developer Tools >> *Performance >> {boxtimes} Memory* >> (Record button)
 
 
 Technique: Timeline recording
