@@ -33,7 +33,7 @@ Content
 //** <<_allocation_timeline,Allocation timeline>>
 //** <<_allocation_profiler,Allocation profiler>>
 //** <<_three_snapshots,3 snapshots technique>>
-* <<_exercises_detached_nodes,Exercises>>
+* <<_exercises,Exercises>>
 //** <<_exercise_detached_nodes,Detached nodes>>
 //** <<_exercise_closure_leak,Closure leak>>
 
@@ -417,6 +417,7 @@ Technique of the 3 snapshots
 image::images/SnapshotComparison.png[width="{imgwidth}"]
 
 
+[[_exercises]]
 Exercise: Detached nodes
 ------------------------
 
