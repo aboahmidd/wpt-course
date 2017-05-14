@@ -419,6 +419,16 @@ image::images/SnapshotComparison.png[width="{imgwidth}"]
 
 
 [[_exercises]]
+Exercise: Wrong scope
+---------------------
+
+[source,html]
+.wrongScope.html
+-----
+include::../js/wrongScope.html[]
+-----
+
+
 Exercise: Detached nodes
 ------------------------
 

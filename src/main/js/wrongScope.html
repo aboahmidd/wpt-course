@@ -1,0 +1,17 @@
+<script>
+function randChar() {
+  return Math.round(Math.random()*36).toString(36)
+}
+function mkRandString(size) {
+  str = new Array(2<<size);
+  for (i=0; i<str.length; str[i++] = randChar());
+  return str.join('');
+}
+var data;
+
+data = mkRandString(20);
+
+// Do something...
+
+data = null;
+</script>
