@@ -13,6 +13,7 @@ ifeval::["{extension}"!="pdf"]
 :lastpage: lastpage.adoc.include
 endif::[]
 :copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+:boxtimes: &#8864;
 
 Content
 -------
@@ -21,6 +22,7 @@ Content
 * <<_investigation_tools,Investigation tools>>
 * <<_pwa,Progressive Web Apps>>
 * <<_http_2,HTTP/2>>
+* <<_exercises,Exercises>>
 
 _(link:0.1-training_plan.html#_transport[back to plan])_
 
@@ -232,6 +234,19 @@ Other topics
 ------------
 
 * Guidelines REST (cf site SOA)
+
+
+[[_exercises]]
+Exercise: Elements order
+------------------------
+
+NOTE: Disable the cache for this exercise: Developer Tools >> Network >> {boxtimes} Disable cache
+
+[source,html]
+.elementsOrder.html
+-----
+include::../js/elementsOrder.html[]
+-----
 
 
 include::{lastpage}[]
