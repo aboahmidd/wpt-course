@@ -278,7 +278,8 @@ A _closure_ is an anonymous function that capture variables *from parent scopes*
 Because of this property, they can be the cause of memory leaks in very specific cases
 (see <<_exercise_closure_leak,exercise>>).
 
-More info: https://blog.meteor.com/an-interesting-kind-of-javascript-memory-leak-8b47d2e7f156
+More info: https://blog.meteor.com/an-interesting-kind-of-javascript-memory-leak-8b47d2e7f156 +
+http://mrale.ph/blog/2012/09/23/grokking-v8-closures-for-fun.html
 
 
 Detection techniques
