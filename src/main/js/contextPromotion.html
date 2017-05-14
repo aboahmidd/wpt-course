@@ -1,0 +1,15 @@
+<script>
+var dummy;
+
+function foo() {
+  var sum = 0;
+  for (var i = 0; i < 100000000; i++) {
+    sum += Math.sqrt(i);
+  }
+
+  setTimeout(function () { dummy = sum; }, 1000);
+}
+
+foo(); // This method is too slow and puts too much load on the memory
+</script>
+Done.

@@ -24,6 +24,7 @@ Content
 
 * <<_causes,Typical causes of performance issues>>
 * <<_profiling,Profiling>>
+* <<_exercises,Exercises>>
 
 _(link:0.1-training_plan.html#_processing[back to plan])_
 
@@ -206,5 +207,15 @@ Lower level languages
 
 * ASM.js - http://asmjs.org/
 * WebAssembly - http://webassembly.org/
+
+[[_exercises]]
+Exercise: Context promotion
+---------------------------
+
+[source,html]
+.contextPromotion.html
+-----
+include::../js/contextPromotion.html[]
+-----
 
 include::{lastpage}[]
