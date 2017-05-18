@@ -8,6 +8,7 @@ v0.2, 14-May-2017: Draft version
 ifdef::env-build[:icons: font]
 :extension: adoc
 //extension may be overriden by compile.sh
+:imgwidth: 700
 ifeval::["{extension}"!="pdf"]
 :doctitle: Web Performance Tuning - {doctitle}
 :lastpage: lastpage.adoc.include
