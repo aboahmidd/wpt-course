@@ -8,6 +8,7 @@ v0.1, 07-Dec-2016: Draft version
 ifdef::env-build[:icons: font]
 :extension: adoc
 //extension may be overriden by compile.sh
+:imgwidth: 700
 ifeval::["{extension}"!="pdf"]
 :doctitle: Web Performance Tuning - {doctitle}
 :lastpage: lastpage.adoc.include
@@ -20,6 +21,15 @@ Content
 * <<_introduction,Introduction>>
 
 _(link:0.1-training_plan.{extension}#_introduction[back to course plan])_
+
+
+Why should we optimize websites?
+--------------------------------
+
+[cols="^",grid="none",frame="none"]
+|=====
+|image:images/fotolia_17151489_xs.jpg[width="{imgwidth}"]
+|=====
 
 
 Why should we optimize websites?

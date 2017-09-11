@@ -32,6 +32,15 @@ _(link:0.1-training_plan.html#_transport[back to plan])_
 Most frequent improvement axis
 ------------------------------
 
+[cols="^",grid="none",frame="none"]
+|=====
+|image:images/fotolia_17151489_xs.jpg[width="{imgwidth}"]
+|=====
+
+
+Most frequent improvement axis
+------------------------------
+
 * Reduce HTTP requests count
 * Use client-side processing
 * (Parallelize requests)
