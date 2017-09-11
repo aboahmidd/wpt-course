@@ -81,7 +81,7 @@ Disclaimer
 ----------
 
 * We're still learning
-* Landscape evoluates extremely rapidly
+* Landscape evolves extremely rapidly
 * Optimizing a web app is more an art than a science
 
 // https://developers.google.com/web/fundamentals/performance/
