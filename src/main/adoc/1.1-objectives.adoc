@@ -18,15 +18,33 @@ endif::[]
 Content
 -------
 
-* objectives of the course
+* <<_motivations,motivations>>
+* <<_objectives,objectives>>
 
 _(link:0.1-training_plan.{extension}#_introduction[back to course plan])_
 
 
-Objectives of the course
-------------------------
+Motivations
+-----------
 
-TODO
+* constant growth of mobile and responsive applications
+* applications increasingly rich and massively JavaScript
+* users demanding high standard response times
+
+Performance issues reside not only on the server side, +
+but also in the behavior of the web front-end.
+
+
+Objectives
+----------
+
+The objectives of this training course are:
+
+- to give basic knowledge of the internal working of the browsers
+- to propose a methodology for optimizing performance
+- to provide the best practices and tools necessary for this optimization
+
+At the end of the course, the participant should be able to solve most frequent performance issues on its own.
 
 
 include::{lastpage}[]
