@@ -28,6 +28,8 @@ var replaceThing = function () {
   };
   // If you add `originalThing = null` here, there is no leak.
   originalThing = null;
+  document.write("X")
 };
+document.write("Scheduling replaceThing...")
 setInterval(replaceThing, 5000);
 </script>
