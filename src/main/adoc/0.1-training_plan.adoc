@@ -41,6 +41,7 @@ Processing
 
 * link:4.1-cpu.{extension}#_content[CPU (compilation)]
 * link:4.2-memory.{extension}#_content[Memory (garbage collector)]
+* link:4.3-angular.{extension}#_content[Memory (garbage collector)]
 
 
 Other courses

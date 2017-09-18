@@ -1,0 +1,139 @@
+// build_options: 
+CPU (compilation)
+=================
+Arnauld Van Muysewinkel <avm@pendragon.be>
+v0.1, 18-Sep-2017: Draft version
+:backend: slidy
+:data-uri:
+ifdef::env-build[:icons: font]
+:extension: adoc
+//extension may be overriden by compile.sh
+:imgwidth: 700
+ifeval::["{extension}"!="pdf"]
+:doctitle: Web Performance Tuning - {doctitle}
+:lastpage: lastpage.adoc.include
+endif::[]
+:copyright: Creative-Commons-Zero (Arnauld Van Muysewinkel)
+:boxtimes: &#8864;
+:circleDot: &#8857;
+:vertEllipsis: &#8942;
+:circle: &#9899;
+
+Content
+-------
+
+* <<_introduction,Angular>>
+* <<_ngzone,NgZone>>
+* <<_change_detection,Change detection>>
+* <<_ngfor,*ngFor>>
+* <<_ahead_of_ime_compilation,Ahead Of Time compilation>>
+
+_(link:0.1-training_plan.html#_processing[back to plan])_
+
+
+[[_introduction]]
+Angular
+-------
+
+[cols="1a,6a",frame="none"]
+|===
+|image::images/Angular_full_color_logo.svg.png[width="120"]|
+* web application platform
+* based on typescript, a superset of JavaScript +
+  (object oriented, static typing, generics)
+* dependency injection
+* reactive programming
+* ...
+|===
+
+
+NgZone
+------
+
+* zone =  an execution context in which all events are intercepted in the JS engine +
+  (functions invocations, errors/returns, timeouts, promises...)
+* all native methods are overridden by augmented versions of the methods (= ''monkey patching'')
+* may cause lots of overhead for code with intensive processing
+* can be disabled like this:
+
+[source,javascript] // should be typescript
+-----
+this.ngZone.runOutsideAngularZone(() => {
+  // some code
+})
+-----
+
+
+Change detection
+----------------
+
+* Angular detects ''automagically'' when data changes, to update the HTML view
+* There is a potential change each time an async method is invoked +
+  (trigered thanks to NgZone)
+* Traverse the entire component tree and compare data with latest known version
+* CPU intensive
+
+
+Change detection (Observable)
+-----------------------------
+
+Use reactive programming, see Redux/ngrx:
+
+* "Smart" components use only `@Observable`
+* Angular disables change detection for components whose `@Observable` have not emmitted any new value
+
+
+Change detection (Immutable)
+----------------------------
+
+* Objects comparison is much more performant with ''immutable objects'' +
+  (compare object reference, instead of making a deep attributes comparison)
+* "Dumb" components use only immutable objects as `@input`
+* This code tells Angular that your component is using only immutable objects:
+
+[source,javascript] // should be typescript
+-----
+@Component() {
+  template: //...
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+class XxxxxComponent {
+  @Input() //...
+}
+-----
+
+
+[[_ngfor]]
+*ngFor
+------
+
+* By default, `*ngFor` dismisses and recreates to whole DOM of the component
+* It has performance impact for complicated lists
+* Keep track of each element of the collection, so that Angular recreates only those:
+
+[source,javascript] // should be typescript
+-----
+<div *ngFor="let item of collection;trackBy: trackByFn">...</div>
+-----
+
+
+[[_aot]]
+Ahead Of Time compilation
+-------------------------
+
+During development, JIT compiler is used:
+
+* compiler must be downloaded
+* compilation takes time during application boot
+
+In production, it is recommended use "Ahead Of Time" (AOT) compilation:
+
+* bundling
+* inlining
+* precompiler code
+* minification
+* dead code ("Rollup")
+* ...
+
+
+include::{lastpage}[]

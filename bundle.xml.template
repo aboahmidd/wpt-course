@@ -23,6 +23,7 @@
       <file name="#BASEDIR#/target/pdf/3.1-transport.pdf" pageselection="All"/>
       <file name="#BASEDIR#/target/pdf/4.1-cpu.pdf" pageselection="All"/>
       <file name="#BASEDIR#/target/pdf/4.2-memory.pdf" pageselection="All"/>
+      <file name="#BASEDIR#/target/pdf/4.3-angular.pdf" pageselection="All"/>
     </filelist>
     <destination value="#BASEDIR#/target/pdf/wpt-bundle.pdf"/>
     <overwrite value="true"/>
