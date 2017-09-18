@@ -258,5 +258,11 @@ NOTE: Disable the cache for this exercise: Developer Tools >> Network >> {boxtim
 include::../js/elementsOrder.html[]
 -----
 
+* Open the file with Chrome
+* Notice the display delay
+* Perform a network profiling
+* Locate the cause of the issue
+* Find a solution
+* Verify your solution
 
 include::{lastpage}[]

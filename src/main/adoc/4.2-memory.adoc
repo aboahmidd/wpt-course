@@ -428,6 +428,15 @@ Exercise: Wrong scope
 include::../js/wrongScope.html[]
 -----
 
+* Open the file with Chrome
+* Perform a memory profiling
+* Notice the memory issue
+* Perform a Memory heap snapshot
+* Locate the cause of the issue
+* Find a solution
+* Verify your solution with the memory profiling
+* Verify your solution with the allocation recording
+
 
 Exercise: Detached nodes
 ------------------------
@@ -438,6 +447,18 @@ Exercise: Detached nodes
 include::../js/detachedDOM.html[]
 -----
 
+* Open the file with Chrome
+* Start a Memory profiling
+* Click at least 15 times on the button (about every 1-2 second)
+* Stop the memory profiling
+* Notice the leak
+* Take a Memory (heap) snapshot
+* Locate the leaked class(es)
+* => We suspect a detached nodes issue, why?
+* Confirm the detached node issue by searching for "detached" in your snapshot
+* Find a solution
+* Verify your solution
+
 
 Exercise: Closure leak
 ----------------------
@@ -447,6 +468,17 @@ Exercise: Closure leak
 -----
 include::../js/closureLeak.html[]
 -----
+
+* Open the file with Chrome
+* Start a Memory profiling
+* Wait at least 30 seconds (6 "X")
+* Stop the memory profiling
+* Notice the leak
+* Take a Memory (heap) snapshot
+* Locate the leaked class(es)
+* Try to explain what prevents these objects from being garbage collected
+* Find a solution
+* Verify your solution
 
 
 Exercise: More...

@@ -219,4 +219,11 @@ Exercise: Context promotion
 include::../js/contextPromotion.html[]
 -----
 
+* Open the file with Chrome
+* Notice the display delay
+* Perform a CPU profiling
+* Locate the cause of the issue
+* Find a solution
+* Verify your solution
+
 include::{lastpage}[]
